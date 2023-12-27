@@ -4,7 +4,7 @@
             <div class="row">
 
                 <div class="col-lg-6 col-12">
-                    <h2 class="text-white mb-lg-0">Festava Live</h2>
+                    <h2 class="text-white mb-lg-0">Banda Essence</h2>
                 </div>
 
                 <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
@@ -12,12 +12,6 @@
                         <li class="social-icon-item">
                             <a href="#" class="social-icon-link">
                                 <span class="bi-twitter"></span>
-                            </a>
-                        </li>
-
-                        <li class="social-icon-item">
-                            <a href="#" class="social-icon-link">
-                                <span class="bi-apple"></span>
                             </a>
                         </li>
 
@@ -33,11 +27,6 @@
                             </a>
                         </li>
 
-                        <li class="social-icon-item">
-                            <a href="#" class="social-icon-link">
-                                <span class="bi-pinterest"></span>
-                            </a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -52,55 +41,51 @@
 
                 <ul class="site-footer-links">
                     <li class="site-footer-link-item">
-                        <a href="#" class="site-footer-link">Home</a>
+                        <a href="#section_1" class="site-footer-link">Home</a>
                     </li>
 
                     <li class="site-footer-link-item">
-                        <a href="#" class="site-footer-link">About</a>
+                        <a href="#section_2" class="site-footer-link">Sobre</a>
                     </li>
 
                     <li class="site-footer-link-item">
-                        <a href="#" class="site-footer-link">Artists</a>
+                        <a href="#section_3" class="site-footer-link">Integrantes</a>
                     </li>
 
                     <li class="site-footer-link-item">
-                        <a href="#" class="site-footer-link">Schedule</a>
+                        <a href="#section_4" class="site-footer-link">Agenda</a>
                     </li>
 
                     <li class="site-footer-link-item">
-                        <a href="#" class="site-footer-link">Pricing</a>
-                    </li>
-
-                    <li class="site-footer-link-item">
-                        <a href="#" class="site-footer-link">Contact</a>
+                        <a href="#section_6" class="site-footer-link">Contato</a>
                     </li>
                 </ul>
             </div>
 
             <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
-                <h5 class="site-footer-title mb-3">Have a question?</h5>
+                <h5 class="site-footer-title mb-3">Tem alguma dúvida?</h5>
 
                 <p class="text-white d-flex mb-1">
-                    <a href="tel: 090-080-0760" class="site-footer-link">
-                        090-080-0760
+                    <a href="tel: 43 999999999" class="site-footer-link">
+                        (43)9 9999-9999
                     </a>
                 </p>
 
                 <p class="text-white d-flex">
-                    <a href="mailto:hello@company.com" class="site-footer-link">
-                        hello@company.com
+                    <a href="mailto:contato@bandaessence.com.br" class="site-footer-link">
+                        contato@bandaessence.com.br
                     </a>
                 </p>
             </div>
 
             <div class="col-lg-3 col-md-6 col-11 mb-4 mb-lg-0 mb-md-0">
-                <h5 class="site-footer-title mb-3">Location</h5>
+                <h5 class="site-footer-title mb-3">Localização</h5>
 
                 <p class="text-white d-flex mt-3 mb-2">
-                    Silang Junction South, Tagaytay, Cavite, Philippines</p>
+                    Londrina - PR</p>
 
                 <a class="link-fx-1 color-contrast-higher mt-3" href="#">
-                    <span>Our Maps</span>
+                    <span>Localização Maps</span>
                     <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
                         <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
                             <circle cx="16" cy="16" r="15.5"></circle>
@@ -118,25 +103,25 @@
             <div class="row">
 
                 <div class="col-lg-3 col-12 mt-5">
-                    <p class="copyright-text">Copyright © 2036 Festava Live Company</p>
-                    <p class="copyright-text">Distributed by: <a href="https://themewagon.com">ThemeWagon</a></p>
+                    <p class="copyright-text">2024 - Banda Essence</p>
+                    <p class="copyright-text">Desenvolvido por: <a href="https://github.com/willpch">William Pacheco</a></p>
                 </div>
 
-                <div class="col-lg-8 col-12 mt-lg-5">
-                    <ul class="site-footer-links">
-                        <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Terms &amp; Conditions</a>
-                        </li>
+{{--                <div class="col-lg-8 col-12 mt-lg-5">--}}
+{{--                    <ul class="site-footer-links">--}}
+{{--                        <li class="site-footer-link-item">--}}
+{{--                            <a href="#" class="site-footer-link">Terms &amp; Conditions</a>--}}
+{{--                        </li>--}}
 
-                        <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Privacy Policy</a>
-                        </li>
+{{--                        <li class="site-footer-link-item">--}}
+{{--                            <a href="#" class="site-footer-link">Privacy Policy</a>--}}
+{{--                        </li>--}}
 
-                        <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Your Feedback</a>
-                        </li>
-                    </ul>
-                </div>
+{{--                        <li class="site-footer-link-item">--}}
+{{--                            <a href="#" class="site-footer-link">Your Feedback</a>--}}
+{{--                        </li>--}}
+{{--                    </ul>--}}
+{{--                </div>--}}
             </div>
         </div>
     </div>

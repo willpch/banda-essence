@@ -3,8 +3,8 @@
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #F8CB2E;
-  --secondary-color:              #EE5007;
+  --primary-color: #fff200;
+  --secondary-color: #8213c7;
   --section-bg-color:             #f0f8ff;
   --custom-btn-bg-color:          #EE5007;
   --custom-btn-bg-hover-color:    #c01f27;
@@ -542,7 +542,7 @@ strong {
   TICKET
 -----------------------------------------*/
 .ticket-section {
-  background-image: url('../../../FestavaLive-1.0.0/images/nicholas-green-unsplash-blur.jpg');
+  background-image: url('../images/nicholas-green-unsplash-blur.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -643,7 +643,7 @@ strong {
   SCHEDULE
 -----------------------------------------*/
 .schedule-section {
-  background-image: url('../../../FestavaLive-1.0.0/images/nainoa-shizuru-unsplash-blur.jpg');
+  background-image: url('../images/nainoa-shizuru-unsplash-blur.jpg');
   background-color: #242424;
   background-repeat: no-repeat;
   background-position: center;
@@ -690,18 +690,6 @@ strong {
 
 .schedule-table thead th:last-child {
   border-right-color: transparent;
-}
-
-.schedule-table .pop-background-image {
-  background-image: url('../../../FestavaLive-1.0.0/images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg');
-}
-
-.schedule-table .rock-background-image {
-  background-image: url('../../../FestavaLive-1.0.0/images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg');
-}
-
-.schedule-table .country-background-image {
-  background-image: url('../../../FestavaLive-1.0.0/images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg');
 }
 
 .table-background-image-wrap {
@@ -786,6 +774,9 @@ strong {
   border-radius: var(--border-radius-medium);
 }
 
+.contact-section {
+    background-color: #242424;
+}
 
 /*---------------------------------------
   CUSTOM FORM
@@ -828,7 +819,6 @@ strong {
 
 .site-footer-top {
   background-color: var(--secondary-color);
-  background-image: url('../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg');
   background-repeat: no-repeat;
   margin-bottom: 70px;
   padding-top: 30px;

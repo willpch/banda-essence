@@ -307,92 +307,70 @@
                 <div class="col-12 text-center">
                     <h2 class="text-white mb-4">Agenda</h2>
 
-                    <p>Em Breve</p>
+                    <div class="table-responsive">
+                        <table class="schedule-table table table-dark">
+                            <thead>
 
-{{--                    <div class="table-responsive">--}}
-{{--                        <table class="schedule-table table table-dark">--}}
-{{--                            <thead>--}}
-{{--                            <tr>--}}
-{{--                                <th scope="col">Date</th>--}}
+                            <tr>
+                                <th scope="col">Data</th>
 
-{{--                                <th scope="col">Wednesday</th>--}}
+                                <th scope="col">Evento</th>
+                            </tr>
+                            </thead>
 
-{{--                                <th scope="col">Thursday</th>--}}
+                            <tbody>
+                            <tr>
+                                <th scope="row">05/01/2023</th>
 
-{{--                                <th scope="col">Friday</th>--}}
+                                <td class="table-background-image-wrap rock-background-image">
+                                    <h3>Quintos dos Infernos</h3>
 
-{{--                            </tr>--}}
-{{--                            </thead>--}}
+                                    <p class="mb-2">21:00</p>
 
-{{--                            <tbody>--}}
-{{--                            <tr>--}}
-{{--                                <th scope="row">Day 1</th>--}}
+                                    <p class="mb-2">Rua taltaltal, 789. Londrina - PR</p>
 
-{{--                                <td class="table-background-image-wrap pop-background-image">--}}
-{{--                                    <h3>Pop Night</h3>--}}
+                                    <a href="#" style="color: #5183d5">Google Maps</a>
 
-{{--                                    <p class="mb-2">5:00 - 7:00 PM</p>--}}
+                                    <div class="section-overlay"></div>
+                                </td>
+                            </tr>
 
-{{--                                    <p>By Adele</p>--}}
+                            <tr>
+                                <th style="background-color: #F3DCD4; color: #1a1e21" scope="row">08/01/2023</th>
 
-{{--                                    <div class="section-overlay"></div>--}}
-{{--                                </td>--}}
+                                <td class="table-background-image-wrap rock-background-image" style="background-color: #F3DCD4">
+                                    <h3>Bar Cativeiro</h3>
 
-{{--                                <td style="background-color: #F3DCD4"></td>--}}
+                                    <p class="mb-2"><strong>20:00</strong></p>
 
-{{--                                <td class="table-background-image-wrap rock-background-image">--}}
-{{--                                    <h3>Rock & Roll</h3>--}}
+                                    <p class="mb-2">Rua taltaltal, 789. Londrina - PR</p>
 
-{{--                                    <p class="mb-2">7:00 - 11:00 PM</p>--}}
+                                    <a href="#" style="color: #5183d5">Google Maps</a>
 
-{{--                                    <p>By Rihana</p>--}}
+                                    <div class="section-overlay"></div>
+                                </td>
+                            </tr>
 
-{{--                                    <div class="section-overlay"></div>--}}
-{{--                                </td>--}}
-{{--                            </tr>--}}
+                            <tr>
+                                <th scope="row">11/01/2023</th>
 
-{{--                            <tr>--}}
-{{--                                <th scope="row">Day 2</th>--}}
+                                <td class="table-background-image-wrap rock-background-image">
+                                    <h3>Barbearia</h3>
 
-{{--                                <td style="background-color: #ECC9C7"></td>--}}
+                                    <p class="mb-2">22:00</p>
 
-{{--                                <td>--}}
-{{--                                    <h3>DJ Night</h3>--}}
+                                    <p class="mb-2">Rua taltaltal, 789. Londrina - PR</p>
 
-{{--                                    <p class="mb-2">6:30 - 9:30 PM</p>--}}
+                                    <a href="#" style="color: #5183d5">Google Maps</a>
 
-{{--                                    <p>By Rihana</p>--}}
-{{--                                </td>--}}
+                                    <div class="section-overlay"></div>
+                                </td>
+                            </tr>
 
-{{--                                <td style="background-color: #D9E3DA"></td>--}}
-{{--                            </tr>--}}
+                            </tbody>
+                        </table>
+                    </div>
 
-{{--                            <tr>--}}
-{{--                                <th scope="row">Day 3</th>--}}
-
-{{--                                <td class="table-background-image-wrap country-background-image">--}}
-{{--                                    <h3>Country Music</h3>--}}
-
-{{--                                    <p class="mb-2">4:30 - 7:30 PM</p>--}}
-
-{{--                                    <p>By Rihana</p>--}}
-
-{{--                                    <div class="section-overlay"></div>--}}
-{{--                                </td>--}}
-
-{{--                                <td style="background-color: #D1CFC0"></td>--}}
-
-{{--                                <td>--}}
-{{--                                    <h3>Free Styles</h3>--}}
-
-{{--                                    <p class="mb-2">6:00 - 10:00 PM</p>--}}
-
-{{--                                    <p>By Members</p>--}}
-{{--                                </td>--}}
-{{--                            </tr>--}}
-{{--                            </tbody>--}}
-{{--                        </table>--}}
-{{--                    </div>--}}
                 </div>
             </div>
         </div>
@@ -403,7 +381,7 @@
             <div class="row">
 
                 <div class="col-lg-8 col-12 mx-auto">
-                    <h2 class="text-center mb-4">Contrate a Banda</h2>
+                    <h2 class="text-center mb-4 text-white">Contrate a Banda</h2>
 
                     <nav class="d-flex justify-content-center">
                         <div class="nav nav-tabs align-items-baseline justify-content-center" id="nav-tab"
@@ -411,13 +389,13 @@
                             <button class="nav-link active" id="nav-ContactForm-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-ContactForm" type="button" role="tab"
                                     aria-controls="nav-ContactForm" aria-selected="false">
-                                <h5>Formulàrio de Contato</h5>
+                                <h5 class="text-black-50">Formulàrio de Contato</h5>
                             </button>
 
                             <button class="nav-link" id="nav-ContactMap-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-ContactMap" type="button" role="tab"
                                     aria-controls="nav-ContactMap" aria-selected="false">
-                                <h5>Google Maps</h5>
+                                <h5 class="text-black-50">Google Maps</h5>
                             </button>
                         </div>
                     </nav>
