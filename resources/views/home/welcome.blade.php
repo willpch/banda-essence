@@ -1,5 +1,9 @@
 @extends('layouts.main')
 
+@php
+    use Illuminate\Support\Facades\Storage;
+@endphp
+
 @section('title', 'Banda Essence')
 
 @section('styles')
@@ -178,9 +182,7 @@
                 <div class="col-lg-5 col-12">
                     <div class="artists-thumb">
                         <div class="artists-image-wrap">
-                            <img src="{{ asset('images/artists/sabrina_1.jpg') }}" alt="imagem sabrina"
-                                 class="artists-image img-fluid">
-
+                            <img src="{{ asset('images/artists/sabrina_1.jpg') }}" alt="imagem sabrina" class="artists-image img-fluid">
                         </div>
 
                         <div class="artists-hover">
