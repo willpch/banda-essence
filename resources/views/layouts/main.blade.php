@@ -11,7 +11,7 @@
 
     @yield('styles')
 
-    @include('components.header')
+
 </head>
 
     <body>

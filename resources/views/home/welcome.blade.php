@@ -1,9 +1,5 @@
 @extends('layouts.main')
 
-@php
-    use Illuminate\Support\Facades\Storage;
-@endphp
-
 @section('title', 'Banda Essence')
 
 @section('styles')
@@ -25,9 +21,6 @@
             <a class="navbar-brand" href="/">
                 Banda Essence
             </a>
-
-{{--            <a href="ticket.html" class="btn custom-btn d-lg-none ms-auto me-4">Buy Ticket</a>--}}
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -55,8 +48,6 @@
                         <a class="nav-link click-scroll" href="#section_6">Contato</a>
                     </li>
                 </ul>
-
-{{--                <a href="ticket.html" class="btn custom-btn d-lg-block d-none">Buy Ticket</a>--}}
             </div>
         </div>
     </nav>
@@ -86,30 +77,29 @@
 
                     <div class="location-wrap mx-auto py-3 py-lg-0">
                         <h5 class="text-white">
-{{--                            <i class="custom-icon bi-geo-alt me-2"></i>--}}
-{{--                            De Londrina - PR--}}
+
                         </h5>
                     </div>
 
                     <div class="social-share">
                         <ul class="social-icon d-flex align-items-center justify-content-center">
-                            <span class="text-white me-3">Compartilhe:</span>
+                            <span class="text-white me-3">Siga a gente:</span>
 
                             <li class="social-icon-item">
-                                <a href="#" class="social-icon-link">
+                                <a href="https://www.instagram.com/banda_essence/" target="_blank" class="social-icon-link">
+                                    <span class="bi-instagram"></span>
+                                </a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="https://www.facebook.com/Banda.Essenc" target="_blank" class="social-icon-link">
                                     <span class="bi-facebook"></span>
                                 </a>
                             </li>
 
                             <li class="social-icon-item">
-                                <a href="#" class="social-icon-link">
-                                    <span class="bi-twitter"></span>
-                                </a>
-                            </li>
-
-                            <li class="social-icon-item">
-                                <a href="#" class="social-icon-link">
-                                    <span class="bi-instagram"></span>
+                                <a href="https://open.spotify.com/artist/1MJ0kiw4QQ3R4jTWCN2zQf?si=8NNbOPQTRkOFcW6J2S1VKg" target="_blank" class="social-icon-link">
+                                    <span class="bi-spotify"></span>
                                 </a>
                             </li>
                         </ul>
@@ -125,8 +115,9 @@
             </video>
 
         </div>
-    </section>
 
+    </section>
+    @include('components.spotify-bar')
 
     <section class="about-section section-padding" id="section_2">
         <div class="container">
@@ -149,27 +140,19 @@
 
                 <div class="col-lg-6 col-12">
                     <div class="about-text-wrap">
-                        <img src="{{ asset('images/pexels-alexander-suhorucov-6457579.jpg') }}" class="about-image img-fluid">
-
-{{--                        <div class="about-text-info d-flex">--}}
-{{--                            <div class="d-flex">--}}
-{{--                                <i class="about-text-icon bi-person"></i>--}}
-{{--                            </div>--}}
-
-
-{{--                            <div class="ms-4">--}}
-{{--                                <h3>a happy moment</h3>--}}
-
-{{--                                <p class="mb-0">your amazing festival experience with us</p>--}}
-{{--                            </div>--}}
+                        <div class="spotify-container">
+                            <img src="{{ asset('images/pexels-alexander-suhorucov-6457579.jpg') }}" class="about-image img-fluid">
                         </div>
                     </div>
                 </div>
 
             </div>
-        </div>
-    </section>
 
+
+
+        </div>
+
+    </section>
 
     <section class="artists-section section-padding" id="section_3">
         <div class="container">
@@ -200,7 +183,7 @@
 
                             <p class="mb-0">
                                 <strong>Instagram:</strong>
-                                <a href="#">Sabrina</a>
+                                <a href="https://www.instagram.com/sabrina.lobbo/" target="_blank">Sabrina</a>
                             </p>
                         </div>
                     </div>
@@ -331,23 +314,23 @@
 
                                     <p class="mb-2">Rua taltaltal, 789. Londrina - PR</p>
 
-                                    <a href="#" style="color: #5183d5">Google Maps</a>
+                                    <a href="#" style="color: #6199f5">Google Maps</a>
 
                                     <div class="section-overlay"></div>
                                 </td>
                             </tr>
 
                             <tr>
-                                <th style="background-color: #F3DCD4; color: #1a1e21" scope="row">08/01/2023</th>
+                                <th style="background-color: #9d1692; color: #1a1e21" scope="row">08/01/2023</th>
 
-                                <td class="table-background-image-wrap rock-background-image" style="background-color: #F3DCD4">
+                                <td class="table-background-image-wrap rock-background-image" style="background-color: #be00ae">
                                     <h3>Bar Cativeiro</h3>
 
                                     <p class="mb-2"><strong>20:00</strong></p>
 
                                     <p class="mb-2">Rua taltaltal, 789. Londrina - PR</p>
 
-                                    <a href="#" style="color: #5183d5">Google Maps</a>
+                                    <a href="#" style="color: #6199f5">Google Maps</a>
 
                                     <div class="section-overlay"></div>
                                 </td>
@@ -363,7 +346,7 @@
 
                                     <p class="mb-2">Rua taltaltal, 789. Londrina - PR</p>
 
-                                    <a href="#" style="color: #5183d5">Google Maps</a>
+                                    <a href="#" style="color: #6199f5">Google Maps</a>
 
                                     <div class="section-overlay"></div>
                                 </td>

@@ -66,8 +66,8 @@
                 <h5 class="site-footer-title mb-3">Tem alguma dúvida?</h5>
 
                 <p class="text-white d-flex mb-1">
-                    <a href="tel: 43 999999999" class="site-footer-link">
-                        (43)9 9999-9999
+                    <a href="https://api.whatsapp.com/send/?phone=5543984043966&text&type=phone_number&app_absent=0" class="site-footer-link whatsapp-link">
+                        <i class="bi-whatsapp" aria-hidden="true"></i> +55 (43) 98404-3966
                     </a>
                 </p>
 
@@ -101,27 +101,10 @@
     <div class="site-footer-bottom">
         <div class="container">
             <div class="row">
-
                 <div class="col-lg-3 col-12 mt-5">
                     <p class="copyright-text">2024 - Banda Essence</p>
-                    <p class="copyright-text">Desenvolvido por: <a href="https://github.com/willpch">William Pacheco</a></p>
+                    <p class="copyright-text">Desenvolvido por: <a href="https://www.instagram.com/will_pch/" target="_blank">William Pacheco</a></p>
                 </div>
-
-{{--                <div class="col-lg-8 col-12 mt-lg-5">--}}
-{{--                    <ul class="site-footer-links">--}}
-{{--                        <li class="site-footer-link-item">--}}
-{{--                            <a href="#" class="site-footer-link">Terms &amp; Conditions</a>--}}
-{{--                        </li>--}}
-
-{{--                        <li class="site-footer-link-item">--}}
-{{--                            <a href="#" class="site-footer-link">Privacy Policy</a>--}}
-{{--                        </li>--}}
-
-{{--                        <li class="site-footer-link-item">--}}
-{{--                            <a href="#" class="site-footer-link">Your Feedback</a>--}}
-{{--                        </li>--}}
-{{--                    </ul>--}}
-{{--                </div>--}}
             </div>
         </div>
     </div>

@@ -3,7 +3,7 @@
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color: #fff200;
+  --primary-color: #bf00af;
   --secondary-color: #8213c7;
   --section-bg-color:             #f0f8ff;
   --custom-btn-bg-color:          #EE5007;
@@ -341,10 +341,16 @@ strong {
 -----------------------------------------*/
 .site-header {
   background-color: var(--primary-color);
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
+.spotify-player {
+    /* Ajuste o tamanho conforme necessário */
+    width: 100%; /* Exemplo de largura */
+    height: 80px; /* Exemplo de altura */
+    margin-left: 35px;
+}
 
 /*---------------------------------------
   NAVIGATION
@@ -354,7 +360,6 @@ strong {
   top: 0;
   right: 0;
   left: 0;
-  margin-top: 51px;
 }
 
 .sticky-wrapper.is-sticky .navbar {
@@ -468,7 +473,7 @@ strong {
   position: relative;
   overflow: hidden;
   padding-top: 100px;
-  height: calc(100vh - 51px);
+  height: calc(100vh - 95px);
 }
 
 .hero-section small {
@@ -795,7 +800,6 @@ strong {
   border-radius: var(--border-radius-large);
   color: var(--white-color);
   font-size: var(--p-font-size);
-  font-weight: var(--font-weight-medium);
   transition: all 0.3s;
   margin-bottom: 0;
 }
@@ -1009,3 +1013,21 @@ strong {
   }
 }
 
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #ec5007;
+}
+::-webkit-scrollbar-thumb {
+    background: #be00ae;
+}
+
+.whatsapp-link {
+    color: #128C7E; /* Cor verde do WhatsApp */
+}
+
+.whatsapp-link:hover {
+    color: #075E50; /* Cor verde mais escura para o estado de hover */
+}
