@@ -1025,9 +1025,9 @@ strong {
 }
 
 .whatsapp-link {
-    color: #128C7E; /* Cor verde do WhatsApp */
+    color: #128C7E;
 }
 
 .whatsapp-link:hover {
-    color: #075E50; /* Cor verde mais escura para o estado de hover */
+    color: #075E50;
 }
